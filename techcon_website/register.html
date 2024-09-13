@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <h1>Register for TechCon 2024</h1>
+      <nav>
+        <a href="/TechCon_HTML/techcon_website/index.html">Home</a>
+        <a href="/TechCon_HTML/techcon_website/about.html">About</a>
+        <a href="/TechCon_HTML/techcon_website/schedule.html">Schedule</a>
+        <a href="/TechCon_HTML/techcon_website/contact.html">Contact</a>
+      </nav>
+    </header>
+    <br />
+    <main>
+      <form action="">
+        <!--Field for Name-->
+        <label for="fullname">Full Name:</label>
+        <input
+          type="text"
+          placeholder="Full Name"
+          id="fullname"
+          name="fullname"
+          required
+        />
+
+        <!--Field for Email-->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          placeholder="Email"
+          id="email"
+          name="email"
+          required
+        /><br /><br />
+
+        <!--Field for Password-->
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          placeholder="Password"
+          id="password"
+          name="password"
+          required
+        />
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input
+          type="password"
+          placeholder="Enter Password Again"
+          id="confirm_password"
+          name="confirm_password"
+          required
+        />
+        <br /><br />
+
+        <!--Terms and Conditions Checkbox-->
+        <label for="terms">
+          <input
+            type="checkbox"
+            name="confirm"
+            id="terms"
+            name="terms"
+            required
+          />
+          I agree to the terms and conditions </label
+        ><br /><br />
+
+        <!--Submit Button-->
+        <button type="submit">Register Now</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright &copy; TechCon 2024 Conference</p>
+    </footer>
+  </body>
+</html>
